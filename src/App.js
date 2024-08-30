@@ -25,13 +25,13 @@ const App = () => {
         setmovies(data.Search);
     }
 
-    useEffect(() => {
-        searchMovies('Spiderman');
-    }, []);
+    // useEffect(() => {
+    //     searchMovies('Spiderman');
+    // }, []);
 
     return (
         <div className="app">
-            <h1>MovieLand</h1>
+            <h1>Webymind-REACT APP Demo</h1>
             <div className="search">
                 <input placeholder="Search for movies"
                     value={searchTearm}
